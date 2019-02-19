@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title> калькулятор </title> 
+		<link type="text/css" href="stili1.css" rel="stylesheet">
+		<link type="text/css" href="animation.css" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<script type="text/javascript" src="scripts.js" ></script>
+	
+	</head>
+	<body>
+	
+		<p  id="texts" class="animated bounceInDown"> Калькулятор </p>
+	
+	<div id="wrapper"  >
+		<input id="firstInput" type="number"  placeholder="1_число"/>
+		
+		<div id="operaters" >
+		
+			<button  id="pluss"  onclick="operation(this)" value="+">+</button>
+			<button id="minuss" onclick="operation(this)" value="-">-</button>
+			<button id="mnogh" onclick="operation(this)" value="*">*</button>
+			<button id="deli" onclick="operation(this)" value="/">/</button>
+			<button id="stepen" onclick="operation(this)" value="^">^</button>
+		</div>
+		
+		<input id="secondInput" type="number" placeholder="2_число" />
+		
+		
+		
+		<input id="result" placeholder="результат"/>
+		
+		
+	</div>
+	
+	<div id="podskszka" class="animated zoomInLeft" >
+		<div class="btn" onclick="klick()" >
+			<p class="name"> ??? </p>
+		</div>
+		<p class="tez"> 2+2=5 </p>
+		<p class="tez"> &#9786; </p>
+	
+	</div>
+	
+	<script> 
+
+
+	</script> 
+	
+	
+	</body>
+</html>
+
